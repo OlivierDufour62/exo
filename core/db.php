@@ -1,6 +1,6 @@
 <?php
 try{
-    $pdo = new PDO('sqlite:'.'testifort.db');
+    $pdo = new PDO('sqlite:'.'bddexo.db');
     // $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
     // $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); // ERRMODE_WARNING | ERRMODE_EXCEPTION | ERRMODE_SILENT
 } catch(Exception $e) {
